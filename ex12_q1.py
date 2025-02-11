@@ -20,7 +20,7 @@ print(cheese)
 
 cheese += ['Brie', 'Camembert']
 print(cheese)
-
+cheese.append('brie')
 # you could also use the extend method
 cheese.extend(['Red Leicester', 'Gouda'])
 print(cheese)

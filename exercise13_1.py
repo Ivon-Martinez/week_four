@@ -1,4 +1,4 @@
-#create a new file called pelican to open and append to it
+#create a new file called pelican to open and overwrite
 pelican = open('pelican.txt', 'w')
 
 #create a new list that contains the lines we want to append to the pelican file

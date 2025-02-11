@@ -8,4 +8,6 @@ while len(lotto_numbers) < 6:
 #we want them to be random numbers, so that's why we use random.randint,
 # which takes two arguments to define the range as we want it to go from 1 to 50, both numbers are inclusive
     lotto_numbers.add(random.randint(1, 50))
-print(f"Your lotto ticket is: {lotto_numbers}")
+print(f"Your lotto ticket is: ", *lotto_numbers, f"\nGood luck {chr(128578)}")
+
+#randon module, .sample() method

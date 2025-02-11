@@ -8,6 +8,9 @@ print(pelican_file)
 
 #open the file in read mode and read the content of the file as a list
 pelican_file_list = open("pelican.txt", "r").read().splitlines()
+#another way of doing it
+# pelican_file_list2 = open("pelican.txt", "r").readlines()
+
 #print the number of items in the list
 print(len(pelican_file_list))
 #print the items of the list
@@ -16,4 +19,5 @@ print(pelican_file_list)
 #use a for loop to iterate over the contents of the file and print the output without the last blank line by slicing the last character of the string which is "\n"
 for line in open('pelican.txt', 'r'):
     print(line[:-1])
+    line.strip()
 
